@@ -4,6 +4,7 @@ import NavBar from './components/NavBar.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Projects from './components/Projects.jsx';
 import ContactMe from './components/ContactMe.jsx';
+import Home from './components/Home.jsx';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
+          <Route path = "/Home" element = {<Home />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/ContactMe" element={<ContactMe />} />

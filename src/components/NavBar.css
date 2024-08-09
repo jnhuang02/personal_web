@@ -1,9 +1,20 @@
+
+.navbar-logo {
+    flex-shrink: 0; /* Prevent logo from shrinking */
+  }
+  
+  .logo {
+    height: 40px; /* Adjust logo size */
+    width: auto;
+  }
+
 .navbar {
-    background-color: #333;
-    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
   }
   
   .navbar ul {
+    align-items: center; 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,9 +28,24 @@
   .navbar a {
     color: white;
     text-decoration: none;
+    opacity: 0.9; /* Slightly faded for non-active links */
+  transition: opacity 0.3s; /* Smooth transition for opacity changes */
   }
   
   .navbar a.active {
     font-weight: bold;
-    border-bottom: 2px solid white;
+    opacity: 1;
   }
+
+  .navbar a:hover {
+    opacity: 0.5; /* Fully opaque when hovered */
+  }
+
+  .nav-left {
+    height: 40px; /* Adjust logo size */
+    width: auto;
+}
+
+.spacer{
+    flex: 1;
+}
