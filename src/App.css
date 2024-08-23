@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --grey-color: rgb(140, 140, 140);
+}

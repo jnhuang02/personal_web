@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white; /* Set the default text color to white */
+  background-color: rgb(5, 5, 5); /* Ensure the background is dark for contrast */
+  font-family: Arial, sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p, a, li, span {
+  color: inherit; /* Ensure all these elements inherit the color from the body */
 }

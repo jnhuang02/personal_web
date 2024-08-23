@@ -1,0 +1,21 @@
+[
+    {
+        "image_src": "assets/logos/jordan.jpeg",
+        "username": "Jordan"
+    },
+
+    {
+        "image_src": "assets/logos/phelps.jpg",
+        "username": "Phelps"
+    },
+
+    {
+        "image_src": "assets/logos/jb.jpeg",
+        "username": "Joe Burrow"
+    },
+
+    {
+        "image_src": "assets/logos/ronaldo.jpg",
+        "username": "Ronaldo"
+    }
+]
